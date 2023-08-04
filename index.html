@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+  <header class="cabecalho">
+    <div class="posi0">
       <img src="imagens/imagem_restuarante.jpg" height="50px" width="50px" alt="imagem simbolo">
-      <h2>Cadeeiro</h2>
-     <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Cardápio</a>
-      <a href="#">Blog</a>
-    <a href="#">Fale Conosco</a>
+      
+        <h2>Cadeeiro</h2>
+      </div>
+     <div class="posi1">
+      <div class="flex">
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Cardápio</a>
+        <a href="#">Blog</a>
+        <a href="#">Fale Conosco</a>
      </nav>
-     <hr>
+    </div>
+  </div>
     </header>
+    <hr>
     <main>
       <section class="restaurante">
         <div class="imagem">
@@ -25,7 +32,7 @@
         </div>
         <div class="posicao">
           <div class="texto">
-            <h2>Manifeto</h2>
+            <h1>Manifeto</h1>
             <p>
             Bem-vindo ao Restaurante Candeeiro: uma experiência gastronômica única
               que une sabor, variedade e acessibilidade! 
@@ -41,24 +48,27 @@
             </p>
           </div>
         </div>
-        <div class="imagem">
+        <div class="imagem2">
           <img src="imagens/comidas.jpg" alt="">
         </div>
       </section>
       <section class="area1">
-        <div class="pequeno texto">
+        <div class=" texto">
           <h2>Cardápio</h2>
           <p>olhe nosso cardápio na seção de <a href="#">Cardapios</a></p>
-          
         </div>
       </section>
       <section class="area2">
-        <h2>Blog</h2>
-        <p>olhe nosso blog na seção <a href="#">Blog</a> </p>
+        <div class="texto">
+          <h2>Blog</h2>
+          <p>olhe nosso blog na seção <a href="#">Blog</a> </p>
+        </div>
       </section>
       <section class="area3">
-        <h2>Horario de funcionamento</h2>
-        <p>Funcionando de domingo a domingo de 10:40 até as 15:00</p>
+        <div class="texto">
+          <h2>Horario de funcionamento</h2>
+          <p>Funcionando de domingo a domingo de 10:40 até as 15:00</p>
+        </div>
       </section>
 
 
@@ -66,12 +76,21 @@
 
     <footer>
     <div class="rodape">
-      <h2>Fale conosco</h2>
-      <hr>
-      <h2>Redes Sociais</h2>
-      <img src="imagens/icons/insta2.jpg" height="30px" width="30px" alt="">
-      <img src="imagens/icons/whats.png" height="30px" width="30px" alt="">
-    </div>
-    </footer>
+  
+        <aside class="col1">
+          <h2>Candeeiro</h2>
+        </aside>
+        <hr>
+        <aside class="col2">
+          <h2>Redes Sociais</h2>
+        </aside>
+       <hr>
+        <aside class="col3">
+          <img src="imagens/icons/insta2.jpg" height="30px" width="30px" alt="">
+          <img src="imagens/icons/whats.png" height="30px" width="30px" alt="">
+        </aside>
+
+   </div>
+  </footer>
 </body>
 </html>
