@@ -31,7 +31,11 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content:flex-end;
-    padding: 10px;
+    padding: 9px;
+}
+
+.posi1 > .flex > nav> a:hover{
+    border: 2px solid red;
 }
 
 .cabecalho > img{
@@ -49,13 +53,20 @@ body{
     font-size: 20px;
 }
 
+.restaurante{
+    margin-top: 20px;
+}
+
 .imagem{
     text-align: center;
+
 }
 .imagem > img{
     width: 80vw;
     height: 500px;
     padding-top: 10px;
+    
+
 }
 
 .texto {
@@ -68,6 +79,22 @@ body{
     font-size: 30px;
     text-decoration: underline;
     padding-bottom: 10px;
+}
+
+
+
+.texto > p >a{
+    text-decoration: none;
+    background-color: black;
+    color:rgb(218, 147, 15);
+    text-decoration: underline;
+}
+
+.texto >p >a:hover{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    border-radius: 8px;
 }
 
 .area3 .texto > p{
@@ -96,18 +123,24 @@ body{
 
 .rodape > .col1{
     margin-top:50px ;
-    padding:0px 30px 0px 10px;
+    padding:0px 50px 0px 10px;
 
 }
 
 .rodape > .col1 > h2{
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .rodape > .col2{
     margin-top:50px ;
     padding:0px 30px 0px 10px;
 }
+
+.rodape > .col2 > a > img{
+   padding: 0px 0px 10px 0px;
+}
+
 
 .rodape > .col3{
     margin-top:50px ;
