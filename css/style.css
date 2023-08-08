@@ -59,6 +59,7 @@ body{
 
 .imagem{
     text-align: center;
+    visibility: hidden;
 
 }
 .imagem > img{
