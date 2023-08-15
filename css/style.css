@@ -73,10 +73,22 @@ body{
 
 
 
+ .posicao > .manifesto{
+    text-align: center;
+    padding: 30px;
+    color:red;
+}
+
+
 .texto {
     text-align: center;
     padding: 30px;
-    color:red
+    color:red;
+    background-color: rgb(36, 36, 36);
+    font-size: 20px;
+    height: 300px;
+    
+
 }
 
 .texto > h1{
@@ -100,6 +112,12 @@ body{
     color: black;
     border-radius: 8px;
 }
+
+.area1 , .area2 , .area3 {
+    margin:10% 0px 10% 0px;
+    
+}
+
 
 .area3 .texto > p{
     color: red;
